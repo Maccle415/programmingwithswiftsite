@@ -1,0 +1,221 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Swift Extensions - Programming with Swift &#8211; Programming with Swift</title>
+<meta name="description" content="Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more.">
+<meta name="keywords" content="iOS, Swift 2.2">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Swift Extensions - Programming with Swift">
+<meta property="og:description" content="Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more.">
+<meta property="og:url" content="/swift-extensions/">
+<meta property="og:site_name" content="Programming with Swift">
+
+
+
+
+
+<link rel="canonical" href="/swift-extensions/">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Programming with Swift Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<!-- Webfonts -->
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="/">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="/images/avatar.jpg" alt="Darren photo" class="author-photo">
+					<h4>Darren</h4>
+					<p>Hi all! I am a web developer by trade but iOS development is one of my passions. I am still learning iOS development so this blog is going to be more of a place for me to write notes.</p>
+				</li>
+				<li><a href="/about/"><span class="btn btn-inverse">Learn More</span></a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			<a href="#">Posts</a>
+			<ul class="dl-submenu">
+				<li><a href="/posts/">All Posts</a></li>
+				<li><a href="/tags/">All Tags</a></li>
+			</ul>
+		</li>
+		
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="/swift-extensions/" rel="bookmark" title="Swift Extensions - Programming with Swift">Swift Extensions - Programming with Swift</a></h1>
+        
+        <h2><span class="entry-date date published"><time datetime="2016-04-10T00:00:00-04:00">April 10, 2016</time></span></h2>
+        
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          
+Reading time ~1 minute
+        </p><!-- /.entry-reading-time -->
+        
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <h2 id="what-is-an-extension-in-swift">What is an Extension in Swift?</h2>
+
+<p>Extensions allow the developer to add new functionality to an existing class, structure or enumeration. This allows you to extend types which you do not have access to, or you could extend a type so that it can follow a new protocol.</p>
+
+<h2 id="example">Example:</h2>
+
+<p>If you are building a program and that program needs to run a Double through a specific formula or process, then you can use an extension to extend the native Double functionality like I did below to convert Celsius to Fahrenheit and vice versa.</p>
+
+<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="c1">// this is how you start an extension, with the extension keyword</span>
+<span class="c1">// followed by the type that you want to extend</span>
+
+<span class="kd">extension</span> <span class="kt">Double</span> <span class="p">{</span>
+
+    <span class="c1">// Computed properties</span>
+    <span class="k">var</span> <span class="nv">fahrenheitToCelsius</span><span class="p">:</span> <span class="kt">Double</span>
+    <span class="p">{</span>
+        <span class="k">let</span> <span class="nv">converted</span><span class="p">:</span> <span class="kt">Double</span> <span class="o">=</span> <span class="p">(</span><span class="k">self</span> <span class="o">-</span> <span class="mi">32</span><span class="p">)</span> <span class="o">/</span> <span class="mf">1.8</span>
+        <span class="k">return</span> <span class="n">converted</span>
+    <span class="p">}</span>
+
+    <span class="k">var</span> <span class="nv">celsiusToFahrenheit</span><span class="p">:</span> <span class="kt">Double</span>
+    <span class="p">{</span>
+        <span class="k">let</span> <span class="nv">converted</span><span class="p">:</span> <span class="kt">Double</span> <span class="o">=</span> <span class="p">(</span><span class="k">self</span> <span class="o">*</span> <span class="mf">1.8</span><span class="p">)</span> <span class="o">+</span> <span class="mi">32</span>
+        <span class="k">return</span> <span class="n">converted</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nf">print</span><span class="p">(</span><span class="s">"34,5 degress Celsius is </span><span class="se">\(</span><span class="mf">34.5</span><span class="o">.</span><span class="n">celsiusToFahrenheit</span><span class="se">)</span><span class="s"> Fahrenheit"</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="s">"98,2 degress Fahrenheit is </span><span class="se">\(</span><span class="mf">98.2</span><span class="o">.</span><span class="n">fahrenheitToCelsius</span><span class="se">)</span><span class="s"> Celsius"</span><span class="p">)</span></code></pre></figure>
+
+<p>So what is going on in this code? First thing that I am doing is declaring the extension for type Double with</p>
+
+<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="kd">extension</span> <span class="kt">Double</span> <span class="p">{</span>
+    <span class="c1">// code goes here</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>The code inside the extension will become accessible when using that type. So in the print functions I am using the value of 34.5 degrees celsius and then using the .celsiusToFahrenheit property of type Double to convert 34.5C to 94.1F</p>
+
+<h2 id="conclusion">Conclusion:</h2>
+
+<p>Extensions are extremely powerful. They really allow one to keep ones code clean and easily readable. Another great thing about extensions is that the dev does not need to name the file in any special way like one had to with Objective C.</p>
+
+<p>Example code : <a href="https://github.com/Maccle415/ProgrammingWithSwift/tree/master/Extensions.playground" target="_blank">GitHub</a></p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="/tags/#iOS" title="Pages tagged iOS" class="tag"><span class="term">iOS</span></a><a href="/tags/#Swift 2.2" title="Pages tagged Swift 2.2" class="tag"><span class="term">Swift 2.2</span></a></span>
+        <span>Updated on <span class="entry-date date updated"><time datetime="2016-04-09 00:11:00 -0400">April 09, 2016</time></span></span>
+        <span class="author vcard"><span class="fn">Darren</span></span>
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=/swift-extensions/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=/swift-extensions/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=/swift-extensions/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="/top-swift-recources/" class="read-more-btn">Read More</a>
+    </div><!-- /.read-more-header -->
+    <div class="read-more-content">
+      <h3><a href="/swift-protocols/" title="Swift Protocols - Programming with Swift">Swift Protocols - Programming with Swift</a></h3>
+      <p>iOS app development - Learning Swift Protocols - Programming with Swift <a href="/swift-protocols/">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="/top-swift-recources/" title="Top Swift recources - Programming with Swift">Top Swift recources - Programming with Swift</a></h4>
+        <span>Published on April 08, 2016</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="/what-is-swift/" title="What is Swift? - Programming with Swift">What is Swift? - Programming with Swift</a></h4>
+        <span>Published on April 07, 2016</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2016 Darren. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/scripts.min.js"></script>
+
+
+
+	        
+
+</body>
+</html>
