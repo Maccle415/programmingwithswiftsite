@@ -2,27 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Programming with Swift</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="/feed.xml" />
-<link rel="alternate" type="text/html" href="" />
-<updated>2016-04-27T05:56:22-04:00</updated>
-<id>/</id>
+<link rel="self" type="application/atom+xml" href="http://maccle415.github.io/programmingwithswiftsite/feed.xml" />
+<link rel="alternate" type="text/html" href="http://maccle415.github.io/programmingwithswiftsite" />
+<updated>2016-04-27T07:35:16-04:00</updated>
+<id>http://maccle415.github.io/programmingwithswiftsite/</id>
 <author>
   <name>Darren</name>
-  <uri>/</uri>
+  <uri>http://maccle415.github.io/programmingwithswiftsite/</uri>
   
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[Swift Protocols - Programming with Swift]]></title>
- <link rel="alternate" type="text/html" href="/swift-protocols/" />
-  <id>/swift-protocols</id>
+ <link rel="alternate" type="text/html" href="http://maccle415.github.io/programmingwithswiftsite/swift-protocols/" />
+  <id>http://maccle415.github.io/programmingwithswiftsite/swift-protocols</id>
   <updated>2016-04-10 00:11:00 -0400T00:00:00-00:00</updated>
   <published>2016-04-24T00:00:00-04:00</published>
   
   <author>
     <name>Darren</name>
-    <uri></uri>
+    <uri>http://maccle415.github.io/programmingwithswiftsite</uri>
     <email></email>
   </author>
   <content type="html">
@@ -83,21 +83,21 @@
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;propOne&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;propTwo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/swift-protocols/&quot;&gt;Swift Protocols - Programming with Swift&lt;/a&gt; was originally published by Darren at &lt;a href=&quot;&quot;&gt;Programming with Swift&lt;/a&gt; on April 24, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://maccle415.github.io/programmingwithswiftsite/swift-protocols/&quot;&gt;Swift Protocols - Programming with Swift&lt;/a&gt; was originally published by Darren at &lt;a href=&quot;http://maccle415.github.io/programmingwithswiftsite&quot;&gt;Programming with Swift&lt;/a&gt; on April 24, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Swift Extensions - Programming with Swift]]></title>
- <link rel="alternate" type="text/html" href="/swift-extensions/" />
-  <id>/swift-extensions</id>
+ <link rel="alternate" type="text/html" href="http://maccle415.github.io/programmingwithswiftsite/swift-extensions/" />
+  <id>http://maccle415.github.io/programmingwithswiftsite/swift-extensions</id>
   <updated>2016-04-09 00:11:00 -0400T00:00:00-00:00</updated>
   <published>2016-04-10T00:00:00-04:00</published>
   
   <author>
     <name>Darren</name>
-    <uri></uri>
+    <uri>http://maccle415.github.io/programmingwithswiftsite</uri>
     <email></email>
   </author>
   <content type="html">
@@ -145,21 +145,21 @@
 
 &lt;p&gt;Example code : &lt;a href=&quot;https://github.com/Maccle415/ProgrammingWithSwift/tree/master/Extensions.playground&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/swift-extensions/&quot;&gt;Swift Extensions - Programming with Swift&lt;/a&gt; was originally published by Darren at &lt;a href=&quot;&quot;&gt;Programming with Swift&lt;/a&gt; on April 10, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://maccle415.github.io/programmingwithswiftsite/swift-extensions/&quot;&gt;Swift Extensions - Programming with Swift&lt;/a&gt; was originally published by Darren at &lt;a href=&quot;http://maccle415.github.io/programmingwithswiftsite&quot;&gt;Programming with Swift&lt;/a&gt; on April 10, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Top Swift recources - Programming with Swift]]></title>
- <link rel="alternate" type="text/html" href="/top-swift-recources/" />
-  <id>/top-swift-recources</id>
+ <link rel="alternate" type="text/html" href="http://maccle415.github.io/programmingwithswiftsite/top-swift-recources/" />
+  <id>http://maccle415.github.io/programmingwithswiftsite/top-swift-recources</id>
   <updated>2016-04-09 00:11:00 -0400T00:00:00-00:00</updated>
   <published>2016-04-08T00:00:00-04:00</published>
   
   <author>
     <name>Darren</name>
-    <uri></uri>
+    <uri>http://maccle415.github.io/programmingwithswiftsite</uri>
     <email></email>
   </author>
   <content type="html">
@@ -179,21 +179,21 @@
 
 &lt;p&gt;&lt;a href=&quot;http://www.swifttoolbox.io/&quot; target=&quot;_blank&quot;&gt;Swift toolbox&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/top-swift-recources/&quot;&gt;Top Swift recources - Programming with Swift&lt;/a&gt; was originally published by Darren at &lt;a href=&quot;&quot;&gt;Programming with Swift&lt;/a&gt; on April 08, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://maccle415.github.io/programmingwithswiftsite/top-swift-recources/&quot;&gt;Top Swift recources - Programming with Swift&lt;/a&gt; was originally published by Darren at &lt;a href=&quot;http://maccle415.github.io/programmingwithswiftsite&quot;&gt;Programming with Swift&lt;/a&gt; on April 08, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[What is Swift? - Programming with Swift]]></title>
- <link rel="alternate" type="text/html" href="/what-is-swift/" />
-  <id>/what-is-swift</id>
+ <link rel="alternate" type="text/html" href="http://maccle415.github.io/programmingwithswiftsite/what-is-swift/" />
+  <id>http://maccle415.github.io/programmingwithswiftsite/what-is-swift</id>
   <updated>2016-04-09 00:11:00 -0400T00:00:00-00:00</updated>
   <published>2016-04-07T00:00:00-04:00</published>
   
   <author>
     <name>Darren</name>
-    <uri></uri>
+    <uri>http://maccle415.github.io/programmingwithswiftsite</uri>
     <email></email>
   </author>
   <content type="html">
@@ -207,7 +207,7 @@
 
 &lt;p&gt;I think that Swift is going to be one of the great programming languages. Making it open source and available Linux was a fantastic idea. There are a few large companies wanting to invest heavily in Swift. IBM is one of the companies already investing into Swift. They have created a Swift based web framework called &lt;a href=&quot;https://github.com/IBM-Swift/Kitura&quot; target=&quot;_blank&quot;&gt;Kitura&lt;/a&gt;.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/what-is-swift/&quot;&gt;What is Swift? - Programming with Swift&lt;/a&gt; was originally published by Darren at &lt;a href=&quot;&quot;&gt;Programming with Swift&lt;/a&gt; on April 07, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://maccle415.github.io/programmingwithswiftsite/what-is-swift/&quot;&gt;What is Swift? - Programming with Swift&lt;/a&gt; was originally published by Darren at &lt;a href=&quot;http://maccle415.github.io/programmingwithswiftsite&quot;&gt;Programming with Swift&lt;/a&gt; on April 07, 2016.&lt;/p&gt;
   </content>
 </entry>
 
